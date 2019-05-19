@@ -29,9 +29,16 @@
     for(var ad of ads) {ad.parentNode.removeChild(ad);}
 
     while(body.firstChild) {body.firstChild.remove();}
-
+    
     var main_div = document.createElement("div");
     header.setAttribute("style", "margin:auto");
+    if(/android/i.test(navigator.userAgent))
+    {
+    }
+    else
+    {
+        main_div.setAttribute("style", "width:750px; margin:auto");
+    }
     main_div.setAttribute("style", "width:750px; margin:auto");
     title.setAttribute("style", "text-align:center");
     body.appendChild(header);
