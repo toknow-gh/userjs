@@ -4,6 +4,9 @@
 // @version      0.1
 // @description  去除程序师文章页面的广告和侧边栏，并自动展开文章
 // @author       toknow-gh
+// @updateURL    https://github.com/toknow-gh/userjs/blob/master/reader-techug.user.js
+// @installURL   https://github.com/toknow-gh/userjs/blob/master/reader-techug.user.js
+// @downloadURL  https://github.com/toknow-gh/userjs/blob/master/reader-techug.user.js
 // @match        https://www.techug.com/post/*
 // @grant        none
 // ==/UserScript==
